@@ -1,0 +1,279 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+body,h1,h2{
+	margin:0;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+.container{
+	width: 1000px;
+	min-height: 500px;
+	background-color: #fff;
+	margin:0 auto;
+	border:1px solid black;
+}
+
+.container .header{
+	width: 100%;
+	height: 100px;
+	background-color: #4f4f53;
+	padding: 20px;
+}
+
+.container .header h1{
+	text-align: center;
+	color: #eee;
+	font-size: 2em;
+}
+
+.container .nav{
+	width:100%;
+	height: 50px;
+	background-color: #cb2027;
+}
+
+.container .nav ul{
+	list-style-type: none;
+	text-align: center;
+	width: 100%;
+}
+
+.container .nav li{
+	list-style-type: none;
+	display: inline-block;
+	padding-top: 1.5%;
+}
+
+.container .nav li a{
+	text-decoration: none;
+	color: white;
+	font-size: 1em;
+	margin-right: 5em;
+}
+
+.container .mobile-nav{
+	width:100%;
+	height: 50px;
+	background-color: #cb2027;
+	border:2px black solid;
+	display: none;
+	color: white;
+	padding-left: 20px;
+}
+
+.container .slider{
+	position: relative;
+	width: 100%;
+	height: 350px;
+}
+
+.slider .skitter{
+	width: 100%;
+	height: 100%;
+}
+
+.container .main{
+	width: 100%;
+	min-height: 400px;
+	font-family: cursive;
+	color: #000;
+}
+
+.mobile-nav #menuBar{
+	width: 20%;
+	cursor: pointer;
+	float: left;
+}
+
+.mobile-nav #navContent{
+	width: 80%;
+	float: left;
+	display: none;
+	padding-left: 10%;
+	margin-top: 15px;
+}
+
+
+.mobile-nav #navContent a{
+	text-decoration: none;
+	font-size: 15px;
+	margin-right: 5%;
+	color:#eee;
+}
+.centerme img{
+	margin-left: 10%;
+	margin-top: 1%;
+	width: 80%;
+	height: 50%;
+}
+h3{
+	text-align: center;
+	font-family: cursive;
+	color: #cb2027;
+}
+
+.widget p{
+	text-align: justify;
+	line-height: 1.3em;
+	padding:0 5%;
+}
+
+.widget span{
+	display: block;
+	position: relative;
+	margin-top: 18%;
+	text-align: center;
+	font-family: cursive;
+	font-weight: bold;
+	color: #cb2027;
+}
+
+.mobile-nav #menuBar:active{
+	padding:2px;
+}
+.container .widget{
+	width: 100%;
+	min-height: 200px;
+	padding: 10px 0 10px 10px;
+}
+
+.main .maincontent{
+	width: 90%;
+	margin:0 auto;
+	height: 100%;
+	padding:20px;
+}
+
+.main .maincontent h3{
+	text-align: center;
+	margin:0;
+	color: #cb2027;
+	padding-bottom: 1%;
+}
+
+.main .maincontent img{
+	height: 40%;
+	width: 100%;
+	margin:0 auto;
+}
+.main .maincontent p{
+	width: 100%;
+	text-align: justify;
+}
+.container .widget > div{
+	width: 24%;
+	min-height: 250px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 5px;
+	border: 1px solid black;
+}
+
+.container .footer{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+
+
+
+@media only screen and (max-width: 480px){
+	.container{
+		width: 100%;
+		min-height: 400px;
+	}
+	.container .header{
+		padding:10px;
+	}
+	.mobile-nav #navContent a{
+		margin-right: 0.5%;
+	}
+	.mobile-nav #navContent{
+		padding-left: 1%;
+	}
+	.container .nav{
+		display: none;
+	}
+
+	.container .mobile-nav{
+		display: block;
+	}
+
+	.container .slider{
+		display: none;
+	}
+
+	.container .widget >div{
+		width: 100%;
+		min-height: 250px;
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 680px){
+	.container{
+		width: 100%;
+		min-height: 400px;
+	}
+
+	.container .widget .box1{
+		width: 100%;
+		min-height: 250px;
+		margin-bottom: 10px;
+	}
+
+	.container .widget .box2, .container .widget .box3{
+		width:48%;
+		min-height: 250px;
+		display: inline-block;
+		vertical-align: top;
+		margin-bottom: 10px;
+	}
+	
+	.container .widget{
+		width: 100%;
+	}
+
+	.container .nav{
+		display: none;
+	}
+
+	.container .mobile-nav{
+		display: block;
+	}
+	.container .widget .box4{
+		width: 100%;
+		min-height: 250px;
+	}
+}
+
+@media only screen and (min-width: 681px) and (max-width: 960px){
+	.container{
+		width: 100%;
+		min-height: 400px;
+	}
+	.mobile-nav #navContent a{
+		margin-right: 0.5%;
+	}
+	.mobile-nav #navContent{
+		padding-left: 0.5%;
+	}
+	.container .mobile-nav{
+		display: none;
+	}
+
+	.container .widget > div{
+		width: 48%;
+		min-height: 250px;
+		margin-bottom: 10px;
+	}
+}

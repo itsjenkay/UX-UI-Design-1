@@ -1,0 +1,874 @@
+     <!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<!--this is ment for favicon-->
+	<meta name="description" content="Book hotels in Nigeria online or call 07008808800. Pay on arrival or pre-pay. Guarantee your room.">
+	<meta name="keywords" content="lodging, accommodation, hotel, Hotels, special offers, packages, specials, weekend breaks, city breaks, deals, budget, cheap, discount, savings">
+	<meta name="author" content="Hotels.ng">
+    <link rel="icon" href="img/favicon.ico">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,intial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta itemprop="name" content="Hotels.ng">
+    <meta itemprop="url" content="https://hotels.ng/">
+    <title>Hotels in Enugu | Hotels.ng</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+     <link rel="stylesheet" type="text/css" href="css/styles-hotel.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" href="flickity-docs/flickity.css">
+    <script src="flickity-docs/flickity.pkgd.min.js"></script>
+	
+
+</head>
+<body>
+	<div class="myContainer"><!--begining of my container-->
+		<div class="nav">
+        <div class="left">
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+            <div class="skype">
+
+                <img src="img/newskype.png">
+            </div>
+            <i class="fa fa-bars" id="bars"  ></i>
+        </div>
+        <div class="right">
+            <ul class="phone-contact" id="lg-phone">
+                <li>
+                  <i class="fa fa-phone"></i>
+                  <span>+234 813 229 3851</span>
+                    <ul class="phone-dropdown" id="lg-phone-drop" style="display:none;">
+                        <li><a href=""><img src="img/message.png">+234 813 229 3851</a></li>
+                        <li><a href=""><img src="img/phoncall.png">+234 813 229 3851</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+
+            <ul class="currency" id="lg-currency">
+                <span> &#8358 </span>
+                <li>
+                    <ul class="currency-dropdown" id="lg-currency-drop" style="display:none;">   
+                       <h6>choose your preffered currency for the hotel rate:</h6>
+                        <a href=""> <li>&#8358  Nigerian Naira</li></a>
+                        <a href=""> <li> &#8364  European Euro</li></a>
+                        <a href=""> <li>&#36  U.S Dollars</li></a>
+                        <a href=""><li> &#163 British Sterlign Pounds</li></a>
+                    </ul>
+                </li>
+            </ul>
+            <div class="sign-up">
+                <div class="login">Sign up</div>
+                <div class="login">Login</div>
+            </div>
+        </div>
+        <div class="medium-nav" id="mid-nav" style="display:none;">
+            <div class="medium-phone">
+                <span>Phone contact<i class="fa fa-sort-down (alias)"></i></span>
+                <div class="medium-dropdown-phone" style="display:none;" id="phone-drop">
+                    <ul class="content-dropdown-phone"  >
+                        <li><a href=""><i class="fa fa-phone"></i>+234 813 229 3851</a></li>
+                        <li><a href=""><i class="fa fa-envelope"></i>+234 813 229 3851</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="medium-currency">
+                <span>Chose your prefered currency <i class="fa fa-sort-down (alias)"></i></span>
+            <div class="medium-dropdown-currencey" style="display:none;" id="currency-drop">    
+                <ul class="content-dropdown-currency">
+                         <li><a href="">&#8358  Nigerian Naira</a></li>
+                         <li><a href=""> &#8364  European Euro</a></li>
+                         <li><a href="">&#36  U.S Dollars</a></li>
+                        <li><a href="">&#163 British Sterlign Pounds</a> </li>
+                </ul>
+            </div>
+            </div>
+            <div class="medium-signup">Sign up</div>
+            <div class="medium-login">Login</div>
+        </div>
+
+    </div>
+		<div class="nav-min">
+			<div class="container">
+			<ul class="container">
+				<li><a href="#" class="home text-info">Home</a></li>
+				<li><i class="fa fa-angle-right"></i></li>
+				<li><a href="#" class="hotel">Enugu (274 Hotels)</a></li>
+			</ul>
+			</div>
+		</div>
+			<div class="find-my-hotel ">
+			<div class="find-my-hotel-cont container ">
+				<form >
+					<input class="search-hot" type="text" name="" placeholder="Search for hotel">
+					<input class="search-hot-chk" type="text" name="" placeholder="Check-In">
+					<input class="search-hot-out" type="text" name="" placeholder="Check-Out">
+					<button class="search-hot-find">Find Hotel</button>
+				</form>
+			</div>
+			</div>
+			<!--begining  body of the content-->
+			<div class="main-contents">
+				<div class="bugget hide-md">	<!--begining  body of the budgget-->
+
+				<div class="budgget-container">	<!--begining  body of the budgget-content-->
+				<div class="container">
+					<form>
+                        <label>What is your budget per night:</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">₦</div>
+                            <input data-ga-label="search-by-budget" data-ga-category="Listing-Page-Interaction" data-ga-action="filter" type="number" class="form-control" min="0" name="budget" id="budget_amount" value="">
+                        </div>
+                    </form>
+                </div>
+                </div>	<!--ending body of the budgget content-->
+
+                <div class="amenities-container"><!--begining  body of the amenites-content-->
+                	<div class="container">
+                	<form>
+                		<label>Only show hotels with amenites</label>
+                		<div class="resturants">
+                			<input type="checkbox" name="">
+                			 <i class="fa fa-cutlery"></i><span>Resturant(s)</span>
+                		</div>
+                		<div class="resturants">
+                			<input type="checkbox" name="">
+                			<i class="fa fa-glass"></i><span>Bar/Lounge</span>
+                		</div>
+                		<div class="resturants">
+                			<input type="checkbox" name="">
+                	         <i class="fa fa-rss"></i>   <span>Wireless Internet</span>
+                		</div>
+                		<div class="resturants">
+                			<input type="checkbox" name="">
+                	       <i class="fa fa-music"></i>  <span>Swiming pool</span>
+                		</div>
+                		<button class=" refin-btn btn btn-info btn-md">Refine Search</button>
+                	</form>
+                	</div>
+                </div><!--ending body of the amenities-content-->
+                <div class="find-a-close-hotel"><!-- begining Find a hotel close to your address-->
+                	<div class="container">
+                		<form>
+                			<label>Find a hotel close to an address</label>
+                			<input placeholder="Type address here" type="text" name="" class="form-control" style="margin-bottom:15px;">
+                				<button class=" refin-btn btn btn-info btn-md">Find hotels</button>
+                		</form>
+                	</div>
+                </div><!-- ending of find a hotel close to your address-->
+                <div class="select-area-around-you"><!-- begin of find a hotel close to your address-->
+                	<div class="container area">
+                		<form>
+                			<label>Select Areas in Enugu</label>
+                			<div class="area-around">
+                				<input type="checkbox" name="">
+                				<span class="areas-chk">Enugu (72 hotels)</span>
+                			</div>
+                			<div class="area-around">
+                				<input type="checkbox" name="">
+                				<span class="areas-chk">Independence Layout (45 hotels)</span>
+                			</div>
+                			<div class="area-around">
+                				<input type="checkbox" name="">
+                				<span class="areas-chk">New Heaven (34 hotels)</span>
+                			</div>
+                			<div class="area-around">
+                				<input type="checkbox" name="">
+                				<span class="areas-chk">Trans Ekulu (33 hotels)</span>
+                			</div>
+                			<div class="area-around">
+                				<input type="checkbox" name="">
+                				<span class="areas-chk">Nsukka (9 hotels)</span>
+                			</div><div class="area-around">
+                				<input type="checkbox" name="">
+                				<span class="areas-chk">Emene (7 hotels)</span>
+                			</div>
+                			<div class="area-around">
+                				<input type="checkbox" name="">
+                				<span class="areas-chk">Enugu North (6 hotels)</span>
+                			</div>
+                			<div class="area-around">
+                				<input type="checkbox" name="">
+                				<span class="areas-chk">Gariki (3 hotels)</span>
+                			</div>
+                			<div class="area-around">
+                				<input type="checkbox" name="">
+                				<span class="areas-chk">Asata (3 hotels)</span>
+                			</div>
+                			<div class="area-around">
+                				<input type="checkbox" name="">
+                				<span class="areas-chk">Abakpa (2 hotels)</span>
+                			</div>
+                		</form>
+                	</div>
+                </div><!-- ending of find a hotel close to your address-->
+                <div class="view-more-citeis">
+                	<div class="container">
+                		<span class="view-more "><a href="#" class="text-info">View more cities</a></span>
+                	</div>
+                </div>
+
+                <div class="about-states">
+                	<div class="container">
+                		<h5>About Enugu</h5>
+                		<p>Enugu State is a vibrant east Nigerian State with an estimated population of 11 million people. the State capital, Enugu, is the nerve centre of massive commercial activity across the eatern region of Nigeria. Enugu boasts of massive industrialization, with its thriving textile and agricultural industries, among others.<br><br>Hotels.ng can book hotels in Enugu for you in any loction of the State before you arrive and you have the option to either prepay or make payment on arrival at the hotel.<br><br>Be sure to check through the list of hotels in Kano on the site to compare hotel prices and read hotel reviews so you can benefit from the special offers available when you book with us.</p>
+                	</div>
+                </div>
+                </div>	<!--ending body of the budget content-->
+
+                	<!-- this is begining of the hotels side-->
+				<div class="hotel-side">
+					<h4 style="font-size:25px;margin-left:2px; color:#084482; margin-bottom:25px;">274 Holtes in Enugu</h4>
+					<div class="short-listed-by">
+                        <ul>
+                            <li><a href="" style="font-size:15px;color:#657279;font-weight:bold;padding-top:3px;">Sort hotels by:</a></li>
+                            <li><a href="" class="active">Our Recommendations</a></li>
+                            <li><a href="">Highest Price First</a></li>
+                            <li><a href="">Lowest Price First</a></li>
+                            <li><a href="">Most Popular</a></li>
+                        </ul>
+                    </div>
+                    <div class="short-list-sm" >
+						Sort hotels by:<select class="form-control">
+                                        <option>Recommendation</option>
+                                        <option>Highest Price First</option>
+                                        <option>Lowest Price First</option>
+                                        <option>Most Popular</option>
+                                     </select>
+                        <div class="btn  btn-md">Refine Search</div>
+					</div>
+
+					<div class="hotel-price-pics-cont"><!-- this the being of the pic slid co-->
+                        <div class="slider-container">
+    <div class="carousel regulate" data-flickity='{"imagesLoaded":true,"setGallerySize":false, "contain":true,"bgLazyLoad":1, "wrapAround":true}'>
+   <div class="carousel-cell">
+   <img src="slider-img/amazon-hotel-enugu.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/bridgewaters-hotel-conference-center-enugu.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/blue-island-hotel-suites-enugu.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/burj-al-kano-hotel-limited-kano.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/tahir-guest-palace-kano.jpg">
+   </div>
+   </div>                 
+                        </div>
+                        <div class="hotel-price">
+                        <div class="about-price-contianer">
+                            <div class="about-price">
+                                <h2><a href="">Blue Island Hotel</a></h2>
+                                <p>
+                                    <a href="">Independence Layout,</a>
+                                    <a href="">Enugu-</a>
+                                    <span>12 Independence Avenue (Bisalla road)</span>
+                                </p>
+
+                                <div>
+                                    <div class="desktop-rating">
+                                        <div class="rating-value-cont">
+                                        <span class="rating-value">
+                                            7.4 
+                                           
+                                            <span class="over">/10</span>
+                                        
+                                        </span>
+                                       
+                                        </div>
+                                        <span class="rate-comment">
+                                            <span>37 Review</span>
+                                       </span>
+                                    </div>
+                                </div>
+
+                                <div class="bottom-group">
+                                    <div class="item-features">
+                                        <p>
+                                        <i class="fa fa-rss"></i>
+                                        <span>Internet</span>
+                                        </p>
+                                        <p>
+                                        <i class="fa fa-cutlery"></i>
+                                        <span>Resturant</span>
+                                        </p>
+                                        <p>
+                                        <i class="fa fa-music"></i>
+                                        <span>Music</span>
+                                        </p>
+                                        <p>
+                                        <i class="fa fa-glass"></i>
+                                        <span>Bar</span>
+                                        </p>
+                                    </div>
+                                </div>  
+                            </div> 
+
+                            
+                     </div>
+                     <div class="item-price-container">
+                        <div class="item-price">
+                            <div class="old-pice">
+                              <small>was</small>
+                                <span>&#8358 8,000</span>
+                            </div>
+                            <div class="present-price">
+                                <small>now</small>
+                                <span>&#8358 6,900</span>
+                            </div>
+                            <div class="pernight">Per night</div>
+                        </div>
+                        <div class="book-now-btn">
+                            <a href="" class="btn btn-md btn-info">Book Now</a>
+                        </div>
+                      </div> 
+
+                     </div>
+                    </div><!-- this the end of the pic slid co--><div class="hotel-price-pics-cont"><!-- this the being of the pic slid co-->
+                        <div class="slider-container">
+                     
+    <div class="carousel regulate" data-flickity='{"imagesLoaded":true,"setGallerySize":false, "contain":true,"bgLazyLoad":1, "wrapAround":true}'>
+   <div class="carousel-cell">
+   <img src="slider-img/dmatel-hotels-and-resorts-enugu.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/sultanate-suites-kano.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/bridgewaters-hotel-conference-center-enugu.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/bridgewaters-hotel-conference-center-enugu.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/bridgewaters-hotel-conference-center-enugu.jpg">
+   </div>
+   </div>                 
+                     
+                        </div>
+                        <div class="hotel-price">
+                        <div class="about-price-contianer">
+                            <div class="about-price">
+                                <h2><a href="">Gold Value Hotel</a></h2>
+                                <p>
+                                    <a href="">New Heaven, Enugu</a>
+                                    <a href="">Enugu-</a>
+                                    <span>93 Upper Chime Avenue</span>
+                                </p>
+
+                                <div>
+                                    <div class="desktop-rating">
+                                        <div class="rating-value-cont">
+                                        <span class="rating-value">
+                                            6.4 
+                                           
+                                            <span class="over">/10</span>
+                                        
+                                        </span>
+                                       
+                                        </div>
+                                        <span class="rate-comment">
+                                            <span>37 Review</span>
+                                       </span>
+                                    </div>
+                                </div>
+
+                                <div class="bottom-group">
+                                    <div class="item-features">
+                                        <p>
+                                        <i class="fa fa-rss"></i>
+                                        <span>Internet</span>
+                                        </p>
+                                        <p>
+                                        <i class="fa fa-cutlery"></i>
+                                        <span>Resturant</span>
+                                        </p>
+                                        <p>
+                                        <i class="fa fa-music"></i>
+                                        <span>Music</span>
+                                        </p>
+                                        <p>
+                                        <i class="fa fa-glass"></i>
+                                        <span>Bar</span>
+                                        </p>
+                                    </div>
+                                </div>  
+                            </div> 
+
+                            
+                     </div>
+                     <div class="item-price-container">
+                        <div class="item-price">
+                            <div class="old-pice">
+                              <small>was</small>
+                                <span>&#8358 12,000</span>
+                            </div>
+                            <div class="present-price">
+                                <small>now</small>
+                                <span>&#8358 9,900</span>
+                            </div>
+                            <div class="pernight">Per night</div>
+                        </div>
+                        <div class="book-now-btn">
+                            <a href="" class="btn btn-md btn-info">Book Now</a>
+                        </div>
+                      </div> 
+
+                     </div>
+                    </div><!-- this the end of the pic slid co--><div class="hotel-price-pics-cont"><!-- this the being of the pic slid co-->
+                        <div class="slider-container">
+                
+    <div class="carousel regulate" data-flickity='{"imagesLoaded":true,"setGallerySize":false, "contain":true,"bgLazyLoad":1, "wrapAround":true}'>
+   <div class="carousel-cell">
+   <img src="slider-img/dmatel-hotels-and-resorts-enugu.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/sultanate-suites-kano.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/bridgewaters-hotel-conference-center-enugu.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/bridgewaters-hotel-conference-center-enugu.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/bridgewaters-hotel-conference-center-enugu.jpg">
+   </div>
+   </div>                 
+                        
+                        </div>
+                        <div class="hotel-price">
+                        <div class="about-price-contianer">
+                            <div class="about-price">
+                                <h2><a href="">Golden Royale Hotel</a></h2>
+                                <p>
+                                    <a href="">Independence Layout,</a>
+                                    <a href="">Enugu-</a>
+                                    <span>10 Bisala Road, </span>
+                                </p>
+
+                                <div>
+                                    <div class="desktop-rating">
+                                        <div class="rating-value-cont">
+                                        <span class="rating-value">
+                                            7.8
+                                           
+                                            <span class="over">/10</span>
+                                        
+                                        </span>
+                                       
+                                        </div>
+                                        <span class="rate-comment">
+                                            <span>37 Review</span>
+                                       </span>
+                                    </div>
+                                </div>
+
+                                <div class="bottom-group">
+                                    <div class="item-features">
+                                        <p>
+                                        <i class="fa fa-rss"></i>
+                                        <span>Internet</span>
+                                        </p>
+                                        <p>
+                                        <i class="fa fa-cutlery"></i>
+                                        <span>Resturant</span>
+                                        </p>
+                                        <p>
+                                        <i class="fa fa-music"></i>
+                                        <span>Music</span>
+                                        </p>
+                                        <p>
+                                        <i class="fa fa-glass"></i>
+                                        <span>Bar</span>
+                                        </p>
+                                    </div>
+                                </div>  
+                            </div> 
+
+                            
+                     </div>
+                     <div class="item-price-container">
+                        <div class="item-price">
+                            <div class="old-pice">
+                              <small>was</small>
+                                <span>&#8358 40,000</span>
+                            </div>
+                            <div class="present-price">
+                                <small>now</small>
+                                <span>&#8358 35,000</span>
+                            </div>
+                            <div class="pernight">Per night</div>
+                        </div>
+                        <div class="book-now-btn">
+                            <a href="" class="btn btn-md btn-info">Book Now</a>
+                        </div>
+                      </div> 
+
+                     </div>
+                    </div><!-- this the end of the pic slid co--><div class="hotel-price-pics-cont"><!-- this the being of the pic slid co-->
+                        <div class="slider-container">
+          
+    <div class="carousel regulate" data-flickity='{"imagesLoaded":true,"setGallerySize":false, "contain":true,"bgLazyLoad":1, "wrapAround":true}'>
+   <div class="carousel-cell">
+   <img src="slider-img/amazon-hotel-enugu.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/bridgewaters-hotel-conference-center-enugu.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/blue-island-hotel-suites-enugu.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/burj-al-kano-hotel-limited-kano.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/tahir-guest-palace-kano.jpg">
+   </div>
+   </div>                 
+                       
+                        </div>
+                        <div class="hotel-price">
+                        <div class="about-price-contianer">
+                            <div class="about-price">
+                                <h2><a href="">Amazon Hotels</a></h2>
+                                <p>
+                                    <a href="">Enugu</a>
+                                    <a href="">Enugu-</a>
+                                    <span>16 Njamanze Street, Off Ogui Road</span>
+                                </p>
+
+                                <div>
+                                    <div class="desktop-rating">
+                                        <div class="rating-value-cont">
+                                        <span class="rating-value">
+                                            7.4 
+                                           
+                                            <span class="over">/10</span>
+                                        
+                                        </span>
+                                       
+                                        </div>
+                                        <span class="rate-comment">
+                                            <span>37 Review</span>
+                                       </span>
+                                    </div>
+                                </div>
+
+                                <div class="bottom-group">
+                                    <div class="item-features">
+                                        <p>
+                                        <i class="fa fa-rss"></i>
+                                        <span>Internet</span>
+                                        </p>
+                                        <p>
+                                        <i class="fa fa-cutlery"></i>
+                                        <span>Resturant</span>
+                                        </p>
+                                        <p>
+                                        <i class="fa fa-music"></i>
+                                        <span>Music</span>
+                                        </p>
+                                        <p>
+                                        <i class="fa fa-glass"></i>
+                                        <span>Bar</span>
+                                        </p>
+                                    </div>
+                                </div>  
+                            </div> 
+
+                            
+                     </div>
+                     <div class="item-price-container">
+                        <div class="item-price">
+                            <div class="old-pice">
+                              <small>was</small>
+                                <span>&#8358 8,000</span>
+                            </div>
+                            <div class="present-price">
+                                <small>now</small>
+                                <span>&#8358 4,900</span>
+                            </div>
+                            <div class="pernight">Per night</div>
+                        </div>
+                        <div class="book-now-btn">
+                            <a href="" class="btn btn-md btn-info">Book Now</a>
+                        </div>
+                      </div> 
+
+                     </div>
+                    </div><!-- this the end of the pic slid co--><div class="hotel-price-pics-cont"><!-- this the being of the pic slid co-->
+                        <div class="slider-container">
+ <div class="carousel regulate" data-flickity='{"imagesLoaded":true,"setGallerySize":false, "contain":true,"bgLazyLoad":1, "wrapAround":true}'>
+   <div class="carousel-cell"><img src="slider-img/amazon-hotel-enugu.jpg"></div>
+   <div class="carousel-cell"><img src="slider-img/ascot-resort-enugu.jpg"></div>
+   <div class="carousel-cell"><img src="slider-img/blue-island-hotel-suites-enugu.jpg"></div>
+   <div class="carousel-cell"><img src="slider-img/bridgewaters-hotel-conference-center-enugu.jpg"></div>
+ <div class="carousel-cell"><img src="slider-img/blue-island-hotel-suites-enugu.jpg"></div>
+                    </div>
+
+                        </div>
+                        <div class="hotel-price">
+                        <div class="about-price-contianer">
+                            <div class="about-price">
+                                <h2><a href="">Roban hotel</a></h2>
+                                <p>
+                                    <a href="">Independence layout</a>
+                                    <a href="">Enugu-</a>
+                                    <span>Independence layout</span>
+                                </p>
+
+                                <div>
+                                    <div class="desktop-rating">
+                                        <div class="rating-value-cont">
+                                        <span class="rating-value">
+                                            8.4 
+                                           
+                                            <span class="over">/10</span>
+                                        
+                                        </span>
+                                       
+                                        </div>
+                                        <span class="rate-comment">
+                                            <span>67 Review</span>
+                                       </span>
+                                    </div>
+                                </div>
+
+                                <div class="bottom-group">
+                                    <div class="item-features">
+                                        <p>
+                                        <i class="fa fa-rss"></i>
+                                        <span>Internet</span>
+                                        </p>
+                                        <p>
+                                        <i class="fa fa-cutlery"></i>
+                                        <span>Resturant</span>
+                                        </p>
+                                        <p>
+                                        <i class="fa fa-music"></i>
+                                        <span>Music</span>
+                                        </p>
+                                        <p>
+                                        <i class="fa fa-glass"></i>
+                                        <span>Bar</span>
+                                        </p>
+                                    </div>
+                                </div>  
+                            </div> 
+
+                            
+                     </div>
+                     <div class="item-price-container">
+                        <div class="item-price">
+                            <div class="old-pice">
+                              <small>was</small>
+                                <span>&#8358 17,000</span>
+                            </div>
+                            <div class="present-price">
+                                <small>now</small>
+                                <span>&#8358 13,900</span>
+                            </div>
+                            <div class="pernight">Per night</div>
+                        </div>
+                        <div class="book-now-btn">
+                            <a href="" class="btn btn-md btn-info">Book Now</a>
+                        </div>
+                      </div> 
+
+                     </div>
+                    </div><!-- this the end of the pic slid co--><div class="hotel-price-pics-cont"><!-- this the being of the pic slid co-->
+						<div class="slider-container">
+					    <div class="carousel regulate" data-flickity='{"imagesLoaded":true,"setGallerySize":false, "contain":true,"bgLazyLoad":1, "wrapAround":true}'>
+   <div class="carousel-cell">
+   <img src="slider-img/dmatel-hotels-and-resorts-enugu.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/sultanate-suites-kano.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/bridgewaters-hotel-conference-center-enugu.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/bridgewaters-hotel-conference-center-enugu.jpg">
+   </div>
+   <div class="carousel-cell">
+   <img src="slider-img/bridgewaters-hotel-conference-center-enugu.jpg">
+   </div>
+   </div>                 
+                    
+						</div>
+						<div class="hotel-price">
+                        <div class="about-price-contianer">
+                            <div class="about-price">
+                                <h2><a href="">Nike Lake Resort</a></h2>
+                                <p>
+                                    <a href="">Trans,Ekulu</a>
+                                    <a href="">Enugu-</a>
+                                    <span>Nike Lake Road, Abakpa-Nike</span>
+                                </p>
+
+                                <div>
+                                    <div class="desktop-rating">
+                                        <div class="rating-value-cont">
+                                        <span class="rating-value">
+                                            7.4 
+                                           
+                                            <span class="over">/10</span>
+                                        
+                                        </span>
+                                       
+                                        </div>
+                                        <span class="rate-comment">
+                                            <span>37 Review</span>
+                                       </span>
+                                    </div>
+                                </div>
+
+                                <div class="bottom-group">
+                                    <div class="item-features">
+                                        <p>
+                                        <i class="fa fa-rss"></i>
+                                        <span>Internet</span>
+                                        </p>
+                                        <p>
+                                        <i class="fa fa-cutlery"></i>
+                                        <span>Resturant</span>
+                                        </p>
+                                        <p>
+                                        <i class="fa fa-music"></i>
+                                        <span>Music</span>
+                                        </p>
+                                        <p>
+                                        <i class="fa fa-glass"></i>
+                                        <span>Bar</span>
+                                        </p>
+                                    </div>
+                                </div>  
+                            </div> 
+
+                            
+                     </div>
+                     <div class="item-price-container">
+                        <div class="item-price">
+                            <div class="old-pice">
+                              <small>was</small>
+                                <span>&#8358 28,000</span>
+                            </div>
+                            <div class="present-price">
+                                <small>now</small>
+                                <span>&#8358 15,900</span>
+                            </div>
+                            <div class="pernight">Per night</div>
+                        </div>
+                        <div class="book-now-btn">
+                            <a href="" class="btn btn-md btn-info">Book Now</a>
+                        </div>
+                      </div> 
+
+                     </div>
+
+					</div><!-- this the end of the pic slid co-->
+
+                    <div class="put-your-email">
+                        <div class="icon-carriage">
+                            <div class="ico-ci">
+                                <div class="icon-circle ">
+                                    <i class="fa fa-lock"></i>
+                                </div>
+                            </div>
+                            <label>DON'T TELL ANYONE</label>
+                            <p>Enter your email address to recive new hotel deals</p>
+                        </div>
+                        <div class="email-reguest">
+                            <input type="text" name="" placeholder="Enter your email-address">
+                            <button class="btn btn-md">Unlock</button>
+                        </div>
+                    </div>
+				</div><!-- this is begining of the hotels side-->
+
+               
+				
+
+			</div><!--this is the end of the second container-->
+ 
+            <!--my footer begins here-->
+            <div class="footer">
+            <div class="footer-con container">
+                <div class="compaines">
+                    <p class="headers">Company</p>
+                    <p><a href="http://blog.hotels.ng/">Blog</a></p>
+                    <p><a href="https://hotels.ng/about">About Us</a></p>
+                    <p><a href="http://press.hotels.ng/">Press Page</a></p>
+                    <p><a href="http://jobs.hotels.ng/">Job Openings</a></p>
+                    <p><a href="https://hotels.ng/privacy">Privacy Policy</a></p>
+                    <p><a href="https://hotels.ng/terms">Terms of Service</a></p>
+                    <p><a href="https://hotels.ng/howto">How It Works</a></p>
+                </div>
+                <div class="compaines">
+                    <p class="headers">Community</p>
+                    <p><a href="http://www.twitter.com/hotelsng">Twitter</a></p>
+                    <p><a href="http://www.facebook.com/hotelsng">Facebook</a></p>
+                    <p><a href="http://instagram.com/hotelsng">Instagram</a></p>
+                    <p><a href="http://www.google.com/+hotelsng">Google</a></p>
+                    <p><a href="http://pinterest.com/hotelsng">Pinterest</a></p>
+                    <p><a href="http://www.youtube.com/user/hotelsng">Youtube</a></p>
+                    <p><a href="http://hotels.ng/travel" target="_blank">Travel Blog</a></p>
+                    <p><a href="http://hotels.ng/places" target="_blank">Tourist Attractions</a></p>
+                    <p><a href="https://hotels.ng/events" target="_blank">Events</a></p>
+                    <p><a href="https://hotels.ng/flights" target="_blank">Flights</a></p>
+                </div>
+                <div class="compaines">
+                    <p class="headers">Top Cities</p>
+                    <p><a href="https://hotels.ng/hotels-in-lagos">Hotels in Lagos</a></p>
+                    <p><a href="https://hotels.ng/hotels-in-crossriver/calabar">Hotels in Calabar</a></p>
+                    <p><a href="https://hotels.ng/hotels-in-abuja">Hotels in Abuja</a></p>
+                    <p><a href="https://hotels.ng/hotels-in-lagos/ikoyi">Hotels in Ikoyi</a></p>
+                    <p><a href="https://hotels.ng/hotels-in-rivers/port-harcourt">Hotels in Port Harcourt</a></p>
+                    <p><a href="https://hotels.ng/hotels-in-imo/owerri">Hotels in Owerri</a></p>
+                    <p><a href="https://hotels.ng/hotels-in-lagos/maryland">Hotels in Maryland</a></p>
+                    <p><a href="https://hotels.ng/hotels-in-abia">Hotels in Abia</a></p>
+                    <p><a href="https://hotels.ng/hotels-in-plateau/jos">Hotels in Jos</a></p>
+                </div>
+                <div class="compaines">
+                     <p class="headers">Top Attractions
+</p>
+                    <p><a href="http://hotels.ng/places/lagos/" target="_blank">Interesting places in Lagos</a></p>
+                    <p><a href="http://hotels.ng/places/abuja/" target="_blank">Interesting places in Abuja</a></p>
+                    <p><a href="http://hotels.ng/places/enugu/" target="_blank">Interesting places in Enugu</a></p>
+                    <p><a href="http://hotels.ng/places/cross-river/" target="_blank">Interesting places in Calabar</a></p>
+                    <p><a href="http://hotels.ng/places/rivers/" target="_blank">Interesting places in Port Harcourt</a></p>
+                    <p><a href="http://hotels.ng/places/ogun/" target="_blank">Interesting places in Ogun</a></p>
+                    <p><a href="http://hotels.ng/places/kano/" target="_blank">Interesting places in Kano</a></p>
+                    <p><a href="http://hotels.ng/places/ibadan/" target="_blank">Interesting places in Ibadan</a></p>
+                    <p><a href="http://hotels.ng/places/kaduna/" target="_blank">Interesting places in Kaduna</a></p>
+                    <p><a href="http://hotels.ng/places/oyo/" target="_blank">Interesting places in Oyo</a></p>
+                </div>
+                <div class="sub-footer container">
+                <p>Copyright © 2017 Hotels.ng All Rights Reserved</p>
+                <div class="certify">
+                    <span>Certified by:</span>
+                    <img src="images/nanta.png" alt="img_alt" title="National Association of Nigeria Travel Agencies (NANTA)" width="48">
+                    <img src="images/ntdc.png" alt="img_alt" title="Nigerian Tourism Development Corporation (NTDC)" width="48">
+                </div>
+            </div>
+            </div>
+            
+        </div>
+
+	       <!--my footer endshere-->
+			<!--ending body of the content-->
+		
+	</div><!--begining of my container-->
+
+<script src="js/jquery.js"></script>
+<script src="js/javascript.js"></script>
+</body>
+</html>
